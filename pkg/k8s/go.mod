@@ -1,12 +1,12 @@
 module github.com/cilium/tetragon/pkg/k8s
 
-go 1.18
+go 1.25.0
 
 require (
 	github.com/blang/semver/v4 v4.0.0
 	github.com/cilium/cilium v1.13.1
 	github.com/sirupsen/logrus v1.9.0
-	golang.org/x/sync v0.1.0
+	golang.org/x/sync v0.20.0
 	k8s.io/apiextensions-apiserver v0.26.0
 	k8s.io/apimachinery v0.26.0
 	k8s.io/client-go v0.26.0
@@ -28,7 +28,7 @@ require (
 	github.com/gogo/protobuf v1.3.2 // indirect
 	github.com/golang/protobuf v1.5.2 // indirect
 	github.com/google/gnostic v0.5.7-v3refs // indirect
-	github.com/google/go-cmp v0.5.9 // indirect
+	github.com/google/go-cmp v0.6.0 // indirect
 	github.com/google/gofuzz v1.2.0 // indirect
 	github.com/inconshreveable/mousetrap v1.0.1 // indirect
 	github.com/josharian/intern v1.0.0 // indirect
@@ -46,14 +46,15 @@ require (
 	github.com/spf13/cobra v1.6.1 // indirect
 	github.com/spf13/pflag v1.0.5 // indirect
 	github.com/stretchr/testify v1.8.2 // indirect
-	golang.org/x/mod v0.7.0 // indirect
-	golang.org/x/net v0.7.0 // indirect
+	golang.org/x/mod v0.35.0 // indirect
+	golang.org/x/net v0.55.0 // indirect
 	golang.org/x/oauth2 v0.5.0 // indirect
-	golang.org/x/sys v0.5.0 // indirect
-	golang.org/x/term v0.5.0 // indirect
-	golang.org/x/text v0.7.0 // indirect
+	golang.org/x/sys v0.45.0 // indirect
+	golang.org/x/term v0.43.0 // indirect
+	golang.org/x/text v0.37.0 // indirect
 	golang.org/x/time v0.2.0 // indirect
-	golang.org/x/tools v0.3.0 // indirect
+	golang.org/x/tools v0.44.0 // indirect
+	golang.org/x/tools/go/packages/packagestest v0.1.1-deprecated // indirect
 	google.golang.org/appengine v1.6.7 // indirect
 	google.golang.org/protobuf v1.30.0 // indirect
 	gopkg.in/inf.v0 v0.9.1 // indirect
